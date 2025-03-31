@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.001102] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.002204] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.002770] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.002857] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.002934] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.003011] (ultrasonic) JobQueued: {'identifier': 'ultrasonic', 'dependencies': OrderedDict()}
+[0.003083] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict({'turtlebot3_description': '/shared/students/turtlebot3_ws/install/turtlebot3_description', 'turtlebot3_node': '/shared/students/turtlebot3_ws/install/turtlebot3_node'})}
+[0.003176] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict({'turtlebot3_description': '/shared/students/turtlebot3_ws/install/turtlebot3_description', 'turtlebot3_example': '/shared/students/turtlebot3_ws/install/turtlebot3_example', 'turtlebot3_node': '/shared/students/turtlebot3_ws/install/turtlebot3_node', 'turtlebot3_teleop': '/shared/students/turtlebot3_ws/install/turtlebot3_teleop', 'turtlebot3_bringup': '/shared/students/turtlebot3_ws/install/turtlebot3_bringup'})}
+[0.003840] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.070055] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.099043] (-) TimerEvent: {}
+[0.101558] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.157175] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.202078] (-) TimerEvent: {}
+[0.204157] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.212020] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_description', '-DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_description'], 'cwd': '/shared/students/turtlebot3_ws/build/turtlebot3_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:', 'USER': 'Michael', 'SSH_CLIENT': '10.14.22.18 53086 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/helpers/browser.sh', 'HOME': '/home/Michael', 'OLDPWD': '/home/Michael/shared_students', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1006/vscode-ipc-e02f1e8f-df7d-4757-9971-716c26a5921a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'CPLUS_INCLUDE_PATH': '/home/Michael/apriltag_install/include:/home/Michael/apriltag_install/include:', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install:/home/Michael/shared_students/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'Michael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1006', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1006/vscode-git-9ad7c77b74.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/shared/students/turtlebot3_ws/build/turtlebot3_description', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.14.22.18 53086 10.170.9.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test/lib/python3.12/site-packages:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'OPENCR_MODEL': 'burger'}), 'shell': False}
+[0.233494] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.246411] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_node', '-DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_node'], 'cwd': '/shared/students/turtlebot3_ws/build/turtlebot3_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:', 'USER': 'Michael', 'SSH_CLIENT': '10.14.22.18 53086 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/helpers/browser.sh', 'HOME': '/home/Michael', 'OLDPWD': '/home/Michael/shared_students', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1006/vscode-ipc-e02f1e8f-df7d-4757-9971-716c26a5921a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'CPLUS_INCLUDE_PATH': '/home/Michael/apriltag_install/include:/home/Michael/apriltag_install/include:', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install:/home/Michael/shared_students/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'Michael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1006', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1006/vscode-git-9ad7c77b74.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/shared/students/turtlebot3_ws/build/turtlebot3_node', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.14.22.18 53086 10.170.9.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test/lib/python3.12/site-packages:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy', 'OPENCR_MODEL': 'burger'}), 'shell': False}
+[0.302443] (-) TimerEvent: {}
+[0.403704] (-) TimerEvent: {}
+[0.504594] (-) TimerEvent: {}
+[0.605558] (-) TimerEvent: {}
+[0.714371] (-) TimerEvent: {}
+[0.816084] (-) TimerEvent: {}
+[0.933408] (-) TimerEvent: {}
+[1.044154] (-) TimerEvent: {}
+[1.145408] (-) TimerEvent: {}
+[1.246986] (-) TimerEvent: {}
+[1.350687] (-) TimerEvent: {}
+[1.451594] (-) TimerEvent: {}
+[1.555879] (-) TimerEvent: {}
+[1.656759] (-) TimerEvent: {}
+[1.757506] (-) TimerEvent: {}
+[1.858689] (-) TimerEvent: {}
+[1.960755] (-) TimerEvent: {}
+[2.064060] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.066268] (-) TimerEvent: {}
+[2.068601] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.075746] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.079141] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.079835] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:24 (stamp)\n'}
+[2.081415] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.083406] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.084647] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.085805] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.086479] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.087538] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.089062] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.090354] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.091390] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.092256] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.092973] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:24 (stamp)\n'}
+[2.093957] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.094956] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.095867] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.096621] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.097770] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[2.098892] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[2.166684] (-) TimerEvent: {}
+[2.268739] (-) TimerEvent: {}
+[2.326197] (turtlebot3_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.327442] (turtlebot3_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.346890] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake:53 (configure_file):\n'}
+[2.347714] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.348337] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.349086] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.350821] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.352836] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.353827] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.354659] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.355450] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.356329] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake:53 (configure_file):\n'}
+[2.357380] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.358023] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.358845] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.359498] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.360291] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.360970] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.361643] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[2.362318] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[2.368846] (-) TimerEvent: {}
+[2.450807] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:34 (configure_file):\n'}
+[2.451693] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.452840] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.453758] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[2.454511] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.455282] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.456017] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.456821] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[2.457557] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[2.458152] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:34 (configure_file):\n'}
+[2.459121] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.459921] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.460569] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)\n'}
+[2.461337] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.462181] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.463046] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[2.463890] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.464697] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.465863] (turtlebot3_node) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.7.40 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)\n'}
+[2.466851] (turtlebot3_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[2.469021] (-) TimerEvent: {}
+[2.486412] (turtlebot3_node) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.569394] (-) TimerEvent: {}
+[2.670141] (-) TimerEvent: {}
+[2.730161] (turtlebot3_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.770343] (-) TimerEvent: {}
+[2.791010] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.792622] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.793137] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.793690] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[2.794171] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.795465] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[2.796439] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.797462] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.798817] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.804601] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.806775] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.808465] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.810332] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)\n'}
+[2.812625] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)\n'}
+[2.813396] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.815008] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.816324] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.818506] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.819587] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.820742] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.822443] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.824385] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.825296] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)\n'}
+[2.826341] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)\n'}
+[2.827775] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.828883] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.829967] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.831004] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.832072] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.834861] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[2.836592] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.837696] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.840030] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[2.842089] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.843075] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.843927] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.845418] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.845987] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.849836] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[2.854068] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.855105] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.857134] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[2.858301] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.859775] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.861086] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.862288] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.863363] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.864409] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.865275] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[2.867040] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.867897] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.869633] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[2.870697] (-) TimerEvent: {}
+[2.871450] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.872074] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.873896] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.874714] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.875402] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.875936] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[2.876549] (turtlebot3_description) StderrLine: {'line': b'  Operation not permitted\n'}
+[2.877148] (turtlebot3_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.877886] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:135 (stamp)\n'}
+[2.878828] (turtlebot3_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)\n'}
+[2.879583] (turtlebot3_description) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_package)\n'}
+[2.880341] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[2.880974] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.881619] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.916943] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.970906] (-) TimerEvent: {}
+[3.017455] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.071051] (-) TimerEvent: {}
+[3.123642] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.171277] (-) TimerEvent: {}
+[3.271969] (-) TimerEvent: {}
+[3.373096] (-) TimerEvent: {}
+[3.435330] (turtlebot3_node) StdoutLine: {'line': b'-- Found message_filters: 4.11.3 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[3.473450] (-) TimerEvent: {}
+[3.565983] (turtlebot3_description) CommandEnded: {'returncode': 1}
+[3.574207] (-) TimerEvent: {}
+[3.675477] (-) TimerEvent: {}
+[3.678905] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 1}
+[3.683792] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 'SIGINT'}
+[3.775760] (-) TimerEvent: {}
+[3.877267] (-) TimerEvent: {}
+[3.881741] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.901341] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.977404] (-) TimerEvent: {}
+[4.079396] (-) TimerEvent: {}
+[4.180072] (-) TimerEvent: {}
+[4.281028] (-) TimerEvent: {}
+[4.359402] (turtlebot3_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.381352] (-) TimerEvent: {}
+[4.482474] (-) TimerEvent: {}
+[4.583333] (-) TimerEvent: {}
+[4.684012] (-) TimerEvent: {}
+[4.785075] (-) TimerEvent: {}
+[4.789099] (turtlebot3_node) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[4.885311] (-) TimerEvent: {}
+[4.949391] (turtlebot3_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[4.985487] (-) TimerEvent: {}
+[5.086306] (-) TimerEvent: {}
+[5.187406] (-) TimerEvent: {}
+[5.288366] (-) TimerEvent: {}
+[5.299566] (turtlebot3_node) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[5.388553] (-) TimerEvent: {}
+[5.405312] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[5.432560] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[5.488753] (-) TimerEvent: {}
+[5.589512] (-) TimerEvent: {}
+[5.690289] (-) TimerEvent: {}
+[5.790980] (-) TimerEvent: {}
+[5.891960] (-) TimerEvent: {}
+[5.992718] (-) TimerEvent: {}
+[6.093491] (-) TimerEvent: {}
+[6.123184] (turtlebot3_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.1 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)\n'}
+[6.193711] (-) TimerEvent: {}
+[6.294509] (-) TimerEvent: {}
+[6.334293] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[6.335807] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.336911] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.337535] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[6.338054] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[6.339468] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[6.340136] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.340961] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.341862] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.342956] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[6.344453] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.345054] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.345909] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)\n'}
+[6.346786] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)\n'}
+[6.347317] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.348040] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.348658] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.349272] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.349907] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.350447] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[6.351346] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.352176] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.352781] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)\n'}
+[6.353316] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)\n'}
+[6.354001] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.354682] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.355327] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.356292] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.357282] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.357779] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[6.358187] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.358802] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.359374] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[6.359895] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.360474] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.360873] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.361748] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.362426] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.362939] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[6.363473] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.364085] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.364783] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[6.365288] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.365860] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.366301] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.366839] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.367383] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.367869] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):\n'}
+[6.368393] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.368985] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.369846] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)\n'}
+[6.370325] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.370870] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.371851] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.372411] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.372931] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.373520] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake:23 (configure_file):\n'}
+[6.374036] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.374561] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.375569] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.376327] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[6.376894] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.377450] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.377945] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.378462] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[6.378980] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.379694] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.380348] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:100 (stamp)\n'}
+[6.381076] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)\n'}
+[6.382150] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.383303] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.383886] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.384553] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[6.385111] (turtlebot3_node) StderrLine: {'line': b'  Operation not permitted\n'}
+[6.385742] (turtlebot3_node) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.386294] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:135 (stamp)\n'}
+[6.387181] (turtlebot3_node) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)\n'}
+[6.388679] (turtlebot3_node) StderrLine: {'line': b'  CMakeLists.txt:94 (ament_package)\n'}
+[6.389865] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[6.390818] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.391836] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.395397] (-) TimerEvent: {}
+[6.427754] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 'SIGINT'}
+[6.495549] (-) TimerEvent: {}
+[6.596103] (-) TimerEvent: {}
+[6.696851] (-) TimerEvent: {}
+[6.797523] (-) TimerEvent: {}
+[6.898333] (-) TimerEvent: {}
+[6.999059] (-) TimerEvent: {}
+[7.099709] (-) TimerEvent: {}
+[7.200308] (-) TimerEvent: {}
+[7.300905] (-) TimerEvent: {}
+[7.401532] (-) TimerEvent: {}
+[7.502107] (-) TimerEvent: {}
+[7.603812] (-) TimerEvent: {}
+[7.704614] (-) TimerEvent: {}
+[7.805197] (-) TimerEvent: {}
+[7.905840] (-) TimerEvent: {}
+[8.006596] (-) TimerEvent: {}
+[8.107259] (-) TimerEvent: {}
+[8.207929] (-) TimerEvent: {}
+[8.308879] (-) TimerEvent: {}
+[8.338711] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 'SIGINT'}
+[8.352017] (ld08_driver) JobSkipped: {'identifier': 'ld08_driver'}
+[8.352509] (ultrasonic) JobSkipped: {'identifier': 'ultrasonic'}
+[8.352800] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[8.352910] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[8.353009] (-) EventReactorShutdown: {}

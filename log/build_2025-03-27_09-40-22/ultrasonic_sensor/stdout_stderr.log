@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info
+writing ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/PKG-INFO
+writing dependency_links to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/dependency_links.txt
+writing requirements to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/requires.txt
+writing top-level names to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/top_level.txt
+writing manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'
+reading manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'
+writing manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build
+creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib
+creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor
+copying ultrasonic_sensor/__init__.py -> /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor
+running install
+running install_lib
+creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor
+copying /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor/__init__.py -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor
+byte-compiling /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index
+creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index
+creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index/packages
+copying resource/ultrasonic_sensor -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index/packages
+copying package.xml -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ultrasonic_sensor
+running install_egg_info
+Copying ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info to /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/shared/students/turtlebot3_ws/build/ultrasonic_sensor/install.log'

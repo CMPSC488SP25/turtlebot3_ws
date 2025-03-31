@@ -1,0 +1,129 @@
+[0.153s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /shared/students/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[2.016s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.019s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[2.020s]   Operation not permitted
+[2.021s] Call Stack (most recent call first):
+[2.022s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:24 (stamp)
+[2.023s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.024s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.025s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.026s]   CMakeLists.txt:18 (find_package)
+[2.027s] 
+[2.028s] [0m
+[2.028s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake:53 (configure_file):
+[2.030s]   Operation not permitted
+[2.031s] Call Stack (most recent call first):
+[2.032s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.033s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.033s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.034s]   CMakeLists.txt:18 (find_package)
+[2.035s] 
+[2.036s] [0m
+[2.037s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake:34 (configure_file):
+[2.038s]   Operation not permitted
+[2.038s] Call Stack (most recent call first):
+[2.039s]   /opt/ros/jazzy/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake:41 (include)
+[2.040s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.041s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.041s]   CMakeLists.txt:18 (find_package)
+[2.042s] 
+[2.043s] [0m
+[2.047s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[2.062s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.299s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.358s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.748s] -- Found message_filters: 4.11.3 (/opt/ros/jazzy/share/message_filters/cmake)
+[3.035s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.045s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.783s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.916s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.032s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.116s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[4.135s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.651s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[4.842s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[4.843s]   Operation not permitted
+[4.843s] Call Stack (most recent call first):
+[4.844s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[4.844s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.845s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.845s]   CMakeLists.txt:94 (ament_package)
+[4.846s] 
+[4.846s] [0m
+[4.847s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[4.848s]   Operation not permitted
+[4.848s] Call Stack (most recent call first):
+[4.849s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)
+[4.849s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[4.850s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.851s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.852s]   CMakeLists.txt:94 (ament_package)
+[4.853s] 
+[4.854s] [0m
+[4.854s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[4.855s]   Operation not permitted
+[4.855s] Call Stack (most recent call first):
+[4.856s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:37 (stamp)
+[4.857s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[4.857s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.858s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.858s]   CMakeLists.txt:94 (ament_package)
+[4.859s] 
+[4.860s] [0m
+[4.860s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):
+[4.861s]   Operation not permitted
+[4.862s] Call Stack (most recent call first):
+[4.862s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)
+[4.863s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.864s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.864s]   CMakeLists.txt:94 (ament_package)
+[4.865s] 
+[4.865s] [0m
+[4.866s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):
+[4.867s]   Operation not permitted
+[4.867s] Call Stack (most recent call first):
+[4.868s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)
+[4.868s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.869s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.870s]   CMakeLists.txt:94 (ament_package)
+[4.871s] 
+[4.871s] [0m
+[4.872s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake:73 (configure_file):
+[4.873s]   Operation not permitted
+[4.874s] Call Stack (most recent call first):
+[4.874s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:26 (ament_generate_package_environment)
+[4.875s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.876s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.877s]   CMakeLists.txt:94 (ament_package)
+[4.879s] 
+[4.879s] [0m
+[4.880s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake:23 (configure_file):
+[4.881s]   Operation not permitted
+[4.881s] Call Stack (most recent call first):
+[4.882s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.884s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[4.885s]   CMakeLists.txt:94 (ament_package)
+[4.886s] 
+[4.887s] [0m
+[4.888s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[4.889s]   Operation not permitted
+[4.891s] Call Stack (most recent call first):
+[4.891s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:100 (stamp)
+[4.892s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)
+[4.893s]   CMakeLists.txt:94 (ament_package)
+[4.894s] 
+[4.895s] [0m
+[4.897s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[4.899s]   Operation not permitted
+[4.900s] Call Stack (most recent call first):
+[4.901s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:135 (stamp)
+[4.902s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)
+[4.904s]   CMakeLists.txt:94 (ament_package)
+[4.904s] 
+[4.906s] [0m
+[4.907s] -- Configuring incomplete, errors occurred!
+[4.918s] gmake: *** [Makefile:578: cmake_check_build_system] Error 1

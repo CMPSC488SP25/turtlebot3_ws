@@ -1,0 +1,80 @@
+[0.060s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_node
+[0.431s] -- The C compiler identification is GNU 13.3.0
+[0.797s] -- The CXX compiler identification is GNU 13.3.0
+[0.902s] -- Detecting C compiler ABI info
+[1.508s] -- Detecting C compiler ABI info - done
+[1.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.559s] -- Detecting C compile features
+[1.561s] -- Detecting C compile features - done
+[1.616s] -- Detecting CXX compiler ABI info
+[2.259s] -- Detecting CXX compiler ABI info - done
+[2.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.304s] -- Detecting CXX compile features
+[2.307s] -- Detecting CXX compile features - done
+[2.337s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.285s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.766s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.150s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[4.193s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.731s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.882s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.631s] -- Found message_filters: 4.11.3 (/opt/ros/jazzy/share/message_filters/cmake)
+[6.248s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.293s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.982s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.110s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.232s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.817s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[8.017s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[8.193s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[8.335s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[8.386s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[9.443s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[10.219s] -- Configuring done (10.1s)
+[10.397s] -- Generating done (0.1s)
+[10.426s] -- Build files have been written to: /shared/students/turtlebot3_ws/build/turtlebot3_node
+[10.484s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_node
+[10.499s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /shared/students/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[10.869s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[10.872s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[10.900s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[10.907s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[53.270s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[115.190s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[141.213s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[153.285s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[155.355s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[157.449s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[247.014s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[272.315s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[282.194s] [ 85%] Built target turtlebot3_node_lib
+[282.332s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[304.064s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[312.683s] [100%] Built target turtlebot3_ros
+[312.765s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /shared/students/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[312.779s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /shared/students/turtlebot3_ws/build/turtlebot3_node
+[312.833s] -- Install configuration: ""
+[312.836s] -- Execute custom install script
+[312.839s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[312.892s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[312.955s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[313.019s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[313.075s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[313.139s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[313.195s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[313.262s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[313.325s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[313.382s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[313.446s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[313.501s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[313.564s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[313.623s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[313.679s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[313.747s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[313.808s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[313.866s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[313.928s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[313.984s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[314.060s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /shared/students/turtlebot3_ws/build/turtlebot3_node

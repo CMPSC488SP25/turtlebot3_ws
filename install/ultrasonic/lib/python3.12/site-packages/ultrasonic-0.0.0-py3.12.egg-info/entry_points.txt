@@ -1,0 +1,3 @@
+[console_scripts]
+ultrasonic_publisher = ultrasonic.ultrasonic_publisher:main
+ultrasonic_subscriber = ultrasonic.ultrasonic_subscriber:main

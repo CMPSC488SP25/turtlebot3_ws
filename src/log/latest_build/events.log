@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.001781] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.003043] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003163] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003246] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003326] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003406] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003484] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003571] (ultrasonic) JobQueued: {'identifier': 'ultrasonic', 'dependencies': OrderedDict()}
+[0.003664] (ultrasonic) JobStarted: {'identifier': 'ultrasonic'}
+[0.099302] (-) TimerEvent: {}
+[0.200311] (-) TimerEvent: {}
+[0.301086] (-) TimerEvent: {}
+[0.401660] (-) TimerEvent: {}
+[0.502287] (-) TimerEvent: {}
+[0.602887] (-) TimerEvent: {}
+[0.703526] (-) TimerEvent: {}
+[0.804121] (-) TimerEvent: {}
+[0.905519] (-) TimerEvent: {}
+[1.006164] (-) TimerEvent: {}
+[1.106817] (-) TimerEvent: {}
+[1.207519] (-) TimerEvent: {}
+[1.308309] (-) TimerEvent: {}
+[1.408919] (-) TimerEvent: {}
+[1.509545] (-) TimerEvent: {}
+[1.610171] (-) TimerEvent: {}
+[1.710880] (-) TimerEvent: {}
+[1.811525] (-) TimerEvent: {}
+[1.912131] (-) TimerEvent: {}
+[2.012737] (-) TimerEvent: {}
+[2.113414] (-) TimerEvent: {}
+[2.213984] (-) TimerEvent: {}
+[2.314660] (-) TimerEvent: {}
+[2.415319] (-) TimerEvent: {}
+[2.515928] (-) TimerEvent: {}
+[2.616616] (-) TimerEvent: {}
+[2.717278] (-) TimerEvent: {}
+[2.817900] (-) TimerEvent: {}
+[2.918627] (-) TimerEvent: {}
+[3.019278] (-) TimerEvent: {}
+[3.119832] (-) TimerEvent: {}
+[3.220541] (-) TimerEvent: {}
+[3.321337] (-) TimerEvent: {}
+[3.421959] (-) TimerEvent: {}
+[3.522574] (-) TimerEvent: {}
+[3.623137] (-) TimerEvent: {}
+[3.723764] (-) TimerEvent: {}
+[3.824419] (-) TimerEvent: {}
+[3.925002] (-) TimerEvent: {}
+[4.025607] (-) TimerEvent: {}
+[4.126232] (-) TimerEvent: {}
+[4.226823] (-) TimerEvent: {}
+[4.327534] (-) TimerEvent: {}
+[4.428238] (-) TimerEvent: {}
+[4.528981] (-) TimerEvent: {}
+[4.629831] (-) TimerEvent: {}
+[4.644271] (ultrasonic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/ultrasonic', 'build', '--build-base', '/shared/students/turtlebot3_ws/src/build/ultrasonic/build', 'install', '--record', '/shared/students/turtlebot3_ws/src/build/ultrasonic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared/students/turtlebot3_ws/src/ultrasonic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:', 'USER': 'Michael', 'SSH_CLIENT': '10.14.22.18 58032 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/Michael/apriltag_install/lib:/home/Michael/apriltag_install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/helpers/browser.sh', 'HOME': '/home/Michael', 'OLDPWD': '/home/Michael/shared_students/turtlebot3_ws', 'TERM_PROGRAM_VERSION': '1.98.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1006/vscode-ipc-96a58e9e-f2fb-4c04-8629-8af512e4cfe5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1006/bus', 'COLORTERM': 'truecolor', 'CPLUS_INCLUDE_PATH': '/home/Michael/apriltag_install/include:/home/Michael/apriltag_install/include:', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/Michael/shared_students/turtlebot3_ws/src/install:/home/Michael/shared_students/turtlebot3_ws/install:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'Michael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/Michael/.vscode-server/cli/servers/Stable-6609ac3d66f4eade5cf376d1cb76f13985724bcb/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1006', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1006/vscode-git-9ad7c77b74.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/Michael/shared_students/turtlebot3_ws/src/install/ultrasonic:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/shared/students/turtlebot3_ws/src/build/ultrasonic', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.14.22.18 58032 10.170.9.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/shared/students/turtlebot3_ws/src/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages:/home/Michael/shared_students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages:/home/Michael/shared_students/ultrasonic_test/ultrasonic_test_ws/install/ultrasonic_test/lib/python3.12/site-packages:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages:/home/Michael/shared_students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_teleop:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_example:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Michael/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Michael/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[4.730267] (-) TimerEvent: {}
+[4.830928] (-) TimerEvent: {}
+[4.931660] (-) TimerEvent: {}
+[5.032530] (-) TimerEvent: {}
+[5.133642] (-) TimerEvent: {}
+[5.234318] (-) TimerEvent: {}
+[5.335003] (-) TimerEvent: {}
+[5.435604] (-) TimerEvent: {}
+[5.536218] (-) TimerEvent: {}
+[5.636805] (-) TimerEvent: {}
+[5.737453] (-) TimerEvent: {}
+[5.838141] (-) TimerEvent: {}
+[5.938762] (-) TimerEvent: {}
+[6.039513] (-) TimerEvent: {}
+[6.140110] (-) TimerEvent: {}
+[6.233416] (ultrasonic) StdoutLine: {'line': b'running egg_info\n'}
+[6.240253] (-) TimerEvent: {}
+[6.340806] (-) TimerEvent: {}
+[6.345914] (ultrasonic) StdoutLine: {'line': b'writing ../build/ultrasonic/ultrasonic.egg-info/PKG-INFO\n'}
+[6.347608] (ultrasonic) StdoutLine: {'line': b'writing dependency_links to ../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt\n'}
+[6.349463] (ultrasonic) StdoutLine: {'line': b'writing entry points to ../build/ultrasonic/ultrasonic.egg-info/entry_points.txt\n'}
+[6.350442] (ultrasonic) StdoutLine: {'line': b'writing requirements to ../build/ultrasonic/ultrasonic.egg-info/requires.txt\n'}
+[6.351279] (ultrasonic) StdoutLine: {'line': b'writing top-level names to ../build/ultrasonic/ultrasonic.egg-info/top_level.txt\n'}
+[6.440956] (-) TimerEvent: {}
+[6.541589] (-) TimerEvent: {}
+[6.578109] (ultrasonic) StdoutLine: {'line': b"reading manifest file '../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'\n"}
+[6.582224] (ultrasonic) StdoutLine: {'line': b"writing manifest file '../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'\n"}
+[6.582949] (ultrasonic) StdoutLine: {'line': b'running build\n'}
+[6.583619] (ultrasonic) StdoutLine: {'line': b'running build_py\n'}
+[6.584381] (ultrasonic) StdoutLine: {'line': b'copying ultrasonic/ultrasonic_publisher.py -> /shared/students/turtlebot3_ws/src/build/ultrasonic/build/lib/ultrasonic\n'}
+[6.585949] (ultrasonic) StdoutLine: {'line': b'copying ultrasonic/ultrasonic_subscriber.py -> /shared/students/turtlebot3_ws/src/build/ultrasonic/build/lib/ultrasonic\n'}
+[6.587526] (ultrasonic) StdoutLine: {'line': b'running install\n'}
+[6.616728] (ultrasonic) StdoutLine: {'line': b'running install_lib\n'}
+[6.641757] (-) TimerEvent: {}
+[6.732743] (ultrasonic) StdoutLine: {'line': b'copying /shared/students/turtlebot3_ws/src/build/ultrasonic/build/lib/ultrasonic/ultrasonic_publisher.py -> /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic\n'}
+[6.734332] (ultrasonic) StdoutLine: {'line': b'copying /shared/students/turtlebot3_ws/src/build/ultrasonic/build/lib/ultrasonic/ultrasonic_subscriber.py -> /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic\n'}
+[6.737974] (ultrasonic) StdoutLine: {'line': b'byte-compiling /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic/ultrasonic_publisher.py to ultrasonic_publisher.cpython-312.pyc\n'}
+[6.741625] (ultrasonic) StdoutLine: {'line': b'byte-compiling /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic/ultrasonic_subscriber.py to ultrasonic_subscriber.cpython-312.pyc\n'}
+[6.742263] (-) TimerEvent: {}
+[6.744379] (ultrasonic) StdoutLine: {'line': b'running install_data\n'}
+[6.745215] (ultrasonic) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.842446] (-) TimerEvent: {}
+[6.862185] (ultrasonic) StdoutLine: {'line': b"removing '/shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.864249] (ultrasonic) StdoutLine: {'line': b'Copying ../build/ultrasonic/ultrasonic.egg-info to /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/python3.12/site-packages/ultrasonic-0.0.0-py3.12.egg-info\n'}
+[6.871464] (ultrasonic) StdoutLine: {'line': b'running install_scripts\n'}
+[6.942578] (-) TimerEvent: {}
+[7.043175] (-) TimerEvent: {}
+[7.143786] (-) TimerEvent: {}
+[7.244424] (-) TimerEvent: {}
+[7.345080] (-) TimerEvent: {}
+[7.445684] (-) TimerEvent: {}
+[7.546436] (-) TimerEvent: {}
+[7.647061] (-) TimerEvent: {}
+[7.694789] (ultrasonic) StdoutLine: {'line': b'Installing ultrasonic_publisher script to /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/ultrasonic\n'}
+[7.695895] (ultrasonic) StdoutLine: {'line': b'Installing ultrasonic_subscriber script to /shared/students/turtlebot3_ws/src/install/ultrasonic/lib/ultrasonic\n'}
+[7.697808] (ultrasonic) StdoutLine: {'line': b"writing list of installed files to '/shared/students/turtlebot3_ws/src/build/ultrasonic/install.log'\n"}
+[7.747325] (-) TimerEvent: {}
+[7.848402] (-) TimerEvent: {}
+[7.855457] (ultrasonic) CommandEnded: {'returncode': 0}
+[7.921160] (ultrasonic) JobEnded: {'identifier': 'ultrasonic', 'rc': 0}
+[7.924357] (-) EventReactorShutdown: {}

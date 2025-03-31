@@ -1,0 +1,49 @@
+[0.061s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_bringup
+[0.461s] -- The C compiler identification is GNU 13.3.0
+[0.839s] -- The CXX compiler identification is GNU 13.3.0
+[0.944s] -- Detecting C compiler ABI info
+[1.550s] -- Detecting C compiler ABI info - done
+[1.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.597s] -- Detecting C compile features
+[1.601s] -- Detecting C compile features - done
+[1.661s] -- Detecting CXX compiler ABI info
+[2.317s] -- Detecting CXX compiler ABI info - done
+[2.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.365s] -- Detecting CXX compile features
+[2.367s] -- Detecting CXX compile features - done
+[2.409s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.388s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.862s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.977s] -- Configuring done (4.9s)
+[5.003s] -- Generating done (0.0s)
+[5.012s] -- Build files have been written to: /shared/students/turtlebot3_ws/build/turtlebot3_bringup
+[5.040s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /shared/students/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/shared/students/turtlebot3_ws/install/turtlebot3_bringup
+[5.048s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /shared/students/turtlebot3_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.297s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /shared/students/turtlebot3_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.304s] Invoking command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /shared/students/turtlebot3_ws/build/turtlebot3_bringup
+[5.360s] -- Install configuration: ""
+[5.362s] -- Execute custom install script
+[5.366s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[5.426s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[5.487s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[5.552s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[5.607s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[5.671s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[5.734s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[5.789s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[5.853s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[5.909s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[5.976s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[6.036s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[6.094s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[6.159s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[6.214s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[6.277s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[6.339s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[6.396s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[6.461s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[6.519s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[6.581s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[6.640s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[6.699s] -- Symlinking: /shared/students/turtlebot3_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[6.773s] Invoked command in '/shared/students/turtlebot3_ws/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared/students/turtlebot3_ws/install/turtlebot3_node:/shared/students/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /shared/students/turtlebot3_ws/build/turtlebot3_bringup

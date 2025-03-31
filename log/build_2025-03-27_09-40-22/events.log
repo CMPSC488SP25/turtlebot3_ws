@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.004136] (-) JobUnselected: {'identifier': 'ld08_driver'}
+[0.004412] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.004532] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.004613] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.004986] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.005082] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.005157] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.005254] (ultrasonic_sensor) JobQueued: {'identifier': 'ultrasonic_sensor', 'dependencies': OrderedDict()}
+[0.005343] (ultrasonic_sensor) JobStarted: {'identifier': 'ultrasonic_sensor'}
+[0.100739] (-) TimerEvent: {}
+[0.202276] (-) TimerEvent: {}
+[0.302918] (-) TimerEvent: {}
+[0.403535] (-) TimerEvent: {}
+[0.504194] (-) TimerEvent: {}
+[0.604922] (-) TimerEvent: {}
+[0.705519] (-) TimerEvent: {}
+[0.806129] (-) TimerEvent: {}
+[0.906735] (-) TimerEvent: {}
+[1.007988] (-) TimerEvent: {}
+[1.108547] (-) TimerEvent: {}
+[1.213024] (-) TimerEvent: {}
+[1.314540] (-) TimerEvent: {}
+[1.415313] (-) TimerEvent: {}
+[1.516013] (-) TimerEvent: {}
+[1.616708] (-) TimerEvent: {}
+[1.717504] (-) TimerEvent: {}
+[1.818307] (-) TimerEvent: {}
+[1.918955] (-) TimerEvent: {}
+[2.019529] (-) TimerEvent: {}
+[2.120356] (-) TimerEvent: {}
+[2.221697] (-) TimerEvent: {}
+[2.322338] (-) TimerEvent: {}
+[2.423439] (-) TimerEvent: {}
+[2.524299] (-) TimerEvent: {}
+[2.625200] (-) TimerEvent: {}
+[2.725796] (-) TimerEvent: {}
+[2.826360] (-) TimerEvent: {}
+[2.927129] (-) TimerEvent: {}
+[3.027793] (-) TimerEvent: {}
+[3.128457] (-) TimerEvent: {}
+[3.229180] (-) TimerEvent: {}
+[3.330242] (-) TimerEvent: {}
+[3.430840] (-) TimerEvent: {}
+[3.531451] (-) TimerEvent: {}
+[3.632288] (-) TimerEvent: {}
+[3.732966] (-) TimerEvent: {}
+[3.833920] (-) TimerEvent: {}
+[3.934520] (-) TimerEvent: {}
+[4.035232] (-) TimerEvent: {}
+[4.136006] (-) TimerEvent: {}
+[4.236624] (-) TimerEvent: {}
+[4.337298] (-) TimerEvent: {}
+[4.438181] (-) TimerEvent: {}
+[4.539843] (-) TimerEvent: {}
+[4.640397] (-) TimerEvent: {}
+[4.741262] (-) TimerEvent: {}
+[4.842363] (-) TimerEvent: {}
+[4.943000] (-) TimerEvent: {}
+[5.043616] (-) TimerEvent: {}
+[5.144296] (-) TimerEvent: {}
+[5.245764] (-) TimerEvent: {}
+[5.346618] (-) TimerEvent: {}
+[5.447381] (-) TimerEvent: {}
+[5.548097] (-) TimerEvent: {}
+[5.648885] (-) TimerEvent: {}
+[5.750081] (-) TimerEvent: {}
+[5.768668] (ultrasonic_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ultrasonic_sensor', 'build', '--build-base', '/shared/students/turtlebot3_ws/build/ultrasonic_sensor/build', 'install', '--record', '/shared/students/turtlebot3_ws/build/ultrasonic_sensor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared/students/turtlebot3_ws/src/ultrasonic_sensor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Andrew', 'SSH_CLIENT': '10.14.10.130 57869 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/Andrew/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/Andrew/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh', 'HOME': '/home/Andrew', 'OLDPWD': '/home/Andrew', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1005/vscode-ipc-5abb19dc-acc8-4a62-a21c-e879e53b957d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/Andrew/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/Andrew/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1005/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/Andrew/shared_students/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'Andrew', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/Andrew/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1005', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1005/vscode-git-ea639a4acb.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_teleop:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_example:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Andrew/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/shared/students/turtlebot3_ws/build/ultrasonic_sensor', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '10.14.10.130 57869 10.170.9.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/shared/students/turtlebot3_ws/build/ultrasonic_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_teleop:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/shared/students/turtlebot3_ws/build/turtlebot3_example:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_bringup:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_node:/home/Andrew/shared_students/turtlebot3_ws/install/turtlebot3_description:/home/Andrew/shared_students/turtlebot3_ws/install/ld08_driver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[5.850257] (-) TimerEvent: {}
+[5.951397] (-) TimerEvent: {}
+[6.052722] (-) TimerEvent: {}
+[6.153539] (-) TimerEvent: {}
+[6.254388] (-) TimerEvent: {}
+[6.355343] (-) TimerEvent: {}
+[6.455975] (-) TimerEvent: {}
+[6.556757] (-) TimerEvent: {}
+[6.657350] (-) TimerEvent: {}
+[6.757960] (-) TimerEvent: {}
+[6.859172] (-) TimerEvent: {}
+[6.959775] (-) TimerEvent: {}
+[7.061170] (-) TimerEvent: {}
+[7.161747] (-) TimerEvent: {}
+[7.262317] (-) TimerEvent: {}
+[7.362906] (-) TimerEvent: {}
+[7.383805] (ultrasonic_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[7.385440] (ultrasonic_sensor) StdoutLine: {'line': b'creating ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info\n'}
+[7.463061] (-) TimerEvent: {}
+[7.506838] (ultrasonic_sensor) StdoutLine: {'line': b'writing ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/PKG-INFO\n'}
+[7.507557] (ultrasonic_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/dependency_links.txt\n'}
+[7.508308] (ultrasonic_sensor) StdoutLine: {'line': b'writing requirements to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/requires.txt\n'}
+[7.509055] (ultrasonic_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/top_level.txt\n'}
+[7.509996] (ultrasonic_sensor) StdoutLine: {'line': b"writing manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[7.563215] (-) TimerEvent: {}
+[7.663751] (-) TimerEvent: {}
+[7.743905] (ultrasonic_sensor) StdoutLine: {'line': b"reading manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[7.747440] (ultrasonic_sensor) StdoutLine: {'line': b"writing manifest file '../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info/SOURCES.txt'\n"}
+[7.748612] (ultrasonic_sensor) StdoutLine: {'line': b'running build\n'}
+[7.749682] (ultrasonic_sensor) StdoutLine: {'line': b'running build_py\n'}
+[7.750537] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build\n'}
+[7.752785] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib\n'}
+[7.754472] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor\n'}
+[7.756814] (ultrasonic_sensor) StdoutLine: {'line': b'copying ultrasonic_sensor/__init__.py -> /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor\n'}
+[7.757487] (ultrasonic_sensor) StdoutLine: {'line': b'running install\n'}
+[7.764662] (-) TimerEvent: {}
+[7.786431] (ultrasonic_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[7.864775] (-) TimerEvent: {}
+[7.909004] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor\n'}
+[7.910110] (ultrasonic_sensor) StdoutLine: {'line': b'copying /shared/students/turtlebot3_ws/build/ultrasonic_sensor/build/lib/ultrasonic_sensor/__init__.py -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor\n'}
+[7.913128] (ultrasonic_sensor) StdoutLine: {'line': b'byte-compiling /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor/__init__.py to __init__.cpython-312.pyc\n'}
+[7.914704] (ultrasonic_sensor) StdoutLine: {'line': b'running install_data\n'}
+[7.915862] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index\n'}
+[7.916774] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index\n'}
+[7.917583] (ultrasonic_sensor) StdoutLine: {'line': b'creating /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index/packages\n'}
+[7.918284] (ultrasonic_sensor) StdoutLine: {'line': b'copying resource/ultrasonic_sensor -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ament_index/resource_index/packages\n'}
+[7.918902] (ultrasonic_sensor) StdoutLine: {'line': b'copying package.xml -> /shared/students/turtlebot3_ws/install/ultrasonic_sensor/share/ultrasonic_sensor\n'}
+[7.919696] (ultrasonic_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.964921] (-) TimerEvent: {}
+[8.050346] (ultrasonic_sensor) StdoutLine: {'line': b'Copying ../../build/ultrasonic_sensor/ultrasonic_sensor.egg-info to /shared/students/turtlebot3_ws/install/ultrasonic_sensor/lib/python3.12/site-packages/ultrasonic_sensor-0.0.0-py3.12.egg-info\n'}
+[8.057938] (ultrasonic_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[8.065092] (-) TimerEvent: {}
+[8.165686] (-) TimerEvent: {}
+[8.266256] (-) TimerEvent: {}
+[8.367728] (-) TimerEvent: {}
+[8.468364] (-) TimerEvent: {}
+[8.569011] (-) TimerEvent: {}
+[8.670409] (-) TimerEvent: {}
+[8.772060] (-) TimerEvent: {}
+[8.873669] (-) TimerEvent: {}
+[8.927083] (ultrasonic_sensor) StdoutLine: {'line': b"writing list of installed files to '/shared/students/turtlebot3_ws/build/ultrasonic_sensor/install.log'\n"}
+[8.973908] (-) TimerEvent: {}
+[9.074944] (-) TimerEvent: {}
+[9.091761] (ultrasonic_sensor) CommandEnded: {'returncode': 0}
+[9.166478] (ultrasonic_sensor) JobEnded: {'identifier': 'ultrasonic_sensor', 'rc': 0}
+[9.169559] (-) EventReactorShutdown: {}

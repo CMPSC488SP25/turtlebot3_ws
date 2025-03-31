@@ -1,0 +1,15 @@
+/shared/students/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+/shared/students/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.dsv
+/shared/students/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+/shared/students/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.xml

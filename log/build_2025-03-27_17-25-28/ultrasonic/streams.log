@@ -1,0 +1,31 @@
+[4.675s] Invoking command in '/shared/students/turtlebot3_ws/src/ultrasonic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/shared/students/turtlebot3_ws/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /shared/students/turtlebot3_ws/build/ultrasonic/build install --record /shared/students/turtlebot3_ws/build/ultrasonic/install.log --single-version-externally-managed install_data
+[6.181s] running egg_info
+[6.288s] writing ../../build/ultrasonic/ultrasonic.egg-info/PKG-INFO
+[6.289s] writing dependency_links to ../../build/ultrasonic/ultrasonic.egg-info/dependency_links.txt
+[6.290s] writing entry points to ../../build/ultrasonic/ultrasonic.egg-info/entry_points.txt
+[6.292s] writing requirements to ../../build/ultrasonic/ultrasonic.egg-info/requires.txt
+[6.293s] writing top-level names to ../../build/ultrasonic/ultrasonic.egg-info/top_level.txt
+[6.517s] reading manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[6.522s] writing manifest file '../../build/ultrasonic/ultrasonic.egg-info/SOURCES.txt'
+[6.522s] running build
+[6.523s] running build_py
+[6.524s] copying ultrasonic/ultrasonic_publisher.py -> /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic
+[6.525s] copying ultrasonic/rpi_interface.py -> /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic
+[6.526s] copying ultrasonic/ultrasonic_subscriber.py -> /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic
+[6.527s] running install
+[6.559s] running install_lib
+[6.673s] copying /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic/ultrasonic_publisher.py -> /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic
+[6.674s] copying /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic/rpi_interface.py -> /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic
+[6.675s] copying /shared/students/turtlebot3_ws/build/ultrasonic/build/lib/ultrasonic/ultrasonic_subscriber.py -> /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic
+[6.679s] byte-compiling /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic/ultrasonic_publisher.py to ultrasonic_publisher.cpython-312.pyc
+[6.682s] byte-compiling /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic/rpi_interface.py to rpi_interface.cpython-312.pyc
+[6.685s] byte-compiling /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic/ultrasonic_subscriber.py to ultrasonic_subscriber.cpython-312.pyc
+[6.687s] running install_data
+[6.688s] running install_egg_info
+[6.818s] removing '/shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic-0.0.0-py3.12.egg-info' (and everything under it)
+[6.820s] Copying ../../build/ultrasonic/ultrasonic.egg-info to /shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages/ultrasonic-0.0.0-py3.12.egg-info
+[6.830s] running install_scripts
+[7.665s] Installing ultrasonic_publisher script to /shared/students/turtlebot3_ws/install/ultrasonic/lib/ultrasonic
+[7.666s] Installing ultrasonic_subscriber script to /shared/students/turtlebot3_ws/install/ultrasonic/lib/ultrasonic
+[7.668s] writing list of installed files to '/shared/students/turtlebot3_ws/build/ultrasonic/install.log'
+[7.828s] Invoked command in '/shared/students/turtlebot3_ws/src/ultrasonic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/shared/students/turtlebot3_ws/build/ultrasonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared/students/turtlebot3_ws/install/ultrasonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ultrasonic build --build-base /shared/students/turtlebot3_ws/build/ultrasonic/build install --record /shared/students/turtlebot3_ws/build/ultrasonic/install.log --single-version-externally-managed install_data
