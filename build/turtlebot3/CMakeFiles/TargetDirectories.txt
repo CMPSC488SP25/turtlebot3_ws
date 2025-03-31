@@ -1,9 +1,0 @@
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/uninstall.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/turtlebot3_uninstall.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/test.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/edit_cache.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/rebuild_cache.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/list_install_components.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/install.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/install/local.dir
-/shared/students/turtlebot3_ws/build/turtlebot3/CMakeFiles/install/strip.dir
